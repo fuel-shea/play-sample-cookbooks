@@ -1,5 +1,6 @@
 opsworks_play2 do
-    app "play-hello"
+    app "hello_play"
     puts "\n\n[app cookbook] app: #{:app}\n\n"
-    deploy_data node[:deploy][:app]
+    puts "\n\n[app cookbook] node[:deploy]: #{node[:deploy].inspect}\n\n"
+    deploy_data node[:deploy][:hello_play]
 end
