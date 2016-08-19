@@ -1,4 +1,4 @@
 opsworks_play2 do
-    app "app"
+    app "play-hello"
     deploy_data node[:deploy][:app]
 end
