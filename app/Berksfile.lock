@@ -1,7 +1,4 @@
 DEPENDENCIES
-  fp-play-cookbooks
-    path: .
-    metadata: true
   play2
     git: https://github.com/Originate/cookbooks.git
     revision: a660e2104202a36e65d39ebc7b4842e82cd64f01
