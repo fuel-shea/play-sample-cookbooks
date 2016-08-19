@@ -2,8 +2,8 @@ define :opsworks_play2 do
     application = params[:app]
     deploy = params[:deploy_data]
 
-    puts "\n\n\napplication:\n#{application.inspect}\n\n\n"
-    puts "\n\n\ndeploy:\n#{deploy.inspect}\n\n\n"
+    puts "\n\n\n[play2 cookbook] application:\n#{application.inspect}\n\n\n"
+    puts "\n\n\n[play2 cookbook] deploy:\n#{deploy.inspect}\n\n\n"
 
     app_dir    = File.expand_path(File.join(deploy[:deploy_to], "current", deploy[:scm][:app_dir] || '.'))
     shared_dir = File.join(deploy[:deploy_to], "shared")
