@@ -14,7 +14,6 @@ GRAPH
     ohai (>= 2.1.0)
   chef_handler (1.4.0)
   compat_resource (12.10.7)
-  fp-play-cookbooks (0.1.0)
   java (1.14.0)
     aws (>= 0.0.0)
     windows (>= 0.0.0)
