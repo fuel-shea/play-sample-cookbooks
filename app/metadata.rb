@@ -1,4 +1,4 @@
-name             'fp-play-cookbooks'
+name             'app'
 maintainer       'Fuel Powered'
 maintainer_email 'developer@fuelpowered.com'
 license          'All rights reserved'
